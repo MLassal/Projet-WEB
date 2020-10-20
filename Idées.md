@@ -7,3 +7,9 @@ Idée a réaliser pour le site :
 <> Avancement du développement du jeu (mise à jour etc.)
 <> Système de création de compte??.. 
 <> Espace commentaire ?
+<> Lien de téléchargement du jeu
+<> Lien de téléchargement des ressources (graphismes, script, fichier unity )
+
+
+Exemple de site de jeu :
+<> https://crowfall.com/en-US/
