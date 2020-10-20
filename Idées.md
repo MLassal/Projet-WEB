@@ -11,5 +11,6 @@ Idée a réaliser pour le site :
 <> Lien de téléchargement des ressources (graphismes, script, fichier unity )
 
 
-Exemple de site de jeu :
+Exemple de site :
 <> https://crowfall.com/en-US/
+<> https://www.jeanfrancoisbury.com/
