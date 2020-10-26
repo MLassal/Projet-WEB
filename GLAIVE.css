@@ -1,0 +1,22 @@
+html {
+	background-color: black;
+	color: white;
+}
+
+/*header {
+position: fixed;
+}*/
+
+.description {
+font-size: 20px;
+}
+
+/*.epee{
+object-position: 50% 50%;
+object-fit: cover;
+}*/
+
+header {
+	background-color: black;
+}
+
