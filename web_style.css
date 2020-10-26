@@ -1,8 +1,16 @@
 <!-- Début de la feuille de style qui régira la page web du jeu GLAIVE -->
 
+html{
+  background-color:black;
+  color:white;
+}
 .Logo{
   width:50%;
   text-align: center;
+}
+
+.description{
+  font-size: 20px;
 }
 
 #fixe{
@@ -32,4 +40,5 @@
 
 header {
   display: block;
+  background-color: black;
 }
