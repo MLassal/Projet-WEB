@@ -11,7 +11,15 @@ html{
   font-size: 20px;
 }
 
+#connexion{
+  width:400px;
+  border-radius: 25px;
+  border:solid grey 1px;
+  padding-left: 25px;
+  background-color: white;
+  margin:0 auto;
 
+}
 #fixe{
    position: fixed;
    width: 1850px;
