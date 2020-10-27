@@ -1,25 +1,18 @@
+/* [insérer une description des styles appliqués]                     */
 html{
   background-color:black;
   color:white;
 }
+/*----------------------*/
 .Logo{
   width:50%;
   text-align: center;
 }
-
+/*----------------------*/
 .description{
   font-size: 20px;
 }
-
-#connexion{
-  width:400px;
-  border-radius: 25px;
-  border:solid grey 1px;
-  padding-left: 25px;
-  background-color: white;
-  margin:0 auto;
-
-}
+/*----------------------*/
 #fixe{
    position: fixed;
    width: 1850px;
@@ -29,14 +22,14 @@ html{
    padding-left: 50px;
    bottom: 0px;
 }
-
+/*----------------------*/
 <style>
 .contenant{
   position: relative;
-  text-align: center;
+  text-align: center ;
   color: red;
 }
-
+/*----------------------*/
 .texte_centrer{
   position: absolute;
   top: 65%;
@@ -44,8 +37,75 @@ html{
   transform: translate(-50%, -50%);
 }
 </style>
+/*----------------------*/
 
 header {
   display: block;
   background-color: black;
 }
+
+/*dimensions de la page */
+
+#wrapper
+{
+	width: 100%;
+	margin:auto;
+}
+/*-------------------------*/
+nav a 
+{
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: blue;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	position: right;
+}
+
+
+nav li {
+	margin-right: 10px;
+	margin-left: 20px;
+	position: right;
+}
+
+
+
+
+/*-------------------------*/
+.logo_central {
+
+	object-position: center bottom;
+	display:block;
+	margin:200px 300px 0px  300px; /* haut gauche droite bas*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
