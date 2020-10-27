@@ -12,7 +12,15 @@ html{
 .description{
   font-size: 20px;
 }
-/*----------------------*/
+/*case de présentation du jeu*/
+#presentation{
+width:40%;
+padding-right:50px;
+vertical-align:top;
+padding-top:30px;
+padding-left:15px;
+
+}
 #fixe{
    position: fixed;
    width: 1850px;
@@ -52,7 +60,7 @@ header {
 	margin:auto;
 }
 /*-------------------------*/
-nav a 
+nav a
 {
 	font-family: serif;
 	font-weight: normal;
@@ -84,28 +92,12 @@ nav li {
 	display:block;
 	margin:200px 300px 0px  300px; /* haut gauche droite bas*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Style de la zone de connexion */
+#connexion{
+  width:22%;
+  margin:auto;
+  border:solid grey;
+  border-radius:25px;
+  padding-left:40px;
+  background-color: grey;
+}
