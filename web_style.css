@@ -162,3 +162,13 @@ nav li {
 .box input[type = "submit"]:hover{
   background: #d1bd21;
 }
+
+/*------------------*/
+
+.page {
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/09/14/33/abstract-3304213_960_720.png);
+}
+
+.corps{
+  color: black;
+}
