@@ -1,0 +1,194 @@
+/*regler position de l'épee quand grand écran*/
+/*faire footer*/
+/*faire fonctionner le clic*/
+/*mettre un à propos et un forum sur des photos clicables du jeu*/
+/*voir quoi rajouter avec JS(quand on arrive sur le site/ connexion inscription etc)*/
+
+
+
+html{
+  background-color:#0E0E0E;
+  color:white;
+}
+
+body{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+header{
+  background-color: #0E0E0E;
+  padding: 10px 20px 40px 20px;
+  display: block;
+}
+
+
+h1{
+  font-family: Impact;
+  font-size: 650%;
+  background-image: url("barre.png");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+  margin: 0px 0px 20px 0px;
+}
+
+
+
+h3{
+  font-family: Gill Sans, sans-serif;
+  font-size: 23px;
+}
+
+p{
+  font-family: Gill Sans, sans-serif;
+  font-size: 18px;
+}
+
+footer{
+  padding-top: 50px;
+}
+
+td{
+  margin: 0px;
+  padding: 0px;
+}
+
+table{
+  margin: 0px;
+  width: 100%;
+  background-image: url("epeehorizontal.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 500px;
+}
+
+
+
+nav > ul{
+  margin:0px;
+  padding: 0px;
+}
+
+nav > ul :: after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav > ul > li{
+  float: right;
+  position: relative;
+}
+
+
+nav li{
+  list-style-type:none;
+}
+
+#submenu{
+  display: none;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav li:hover #submenu{
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  right: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+#submenu li{
+  border-bottom: 1px solid white;
+}
+
+#submenu li a{
+  padding: 5px 0px;
+  font-size: 13px;
+  width: 150px;
+  color: white;
+}
+
+
+#logo, nav{
+  display: inline-block;
+}
+
+#logo{
+  width: 49%;
+}
+
+nav{
+  width: 49%;
+}
+
+#intro1{
+  display: none;
+}
+
+@media screen and (max-width: 1550px) and (min-width: 981px) {
+
+  table{
+    padding-bottom: 70px;
+    margin: 0px;
+    width: 100%;
+    background-image: url("epeehorizontal.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 882px) and (min-width: 735px){
+
+  #intro{
+    display: none;
+  }
+
+  #intro1{
+    display: block;
+  }
+
+  header{
+    padding-bottom: 30px;
+    margin: 0px;
+  }
+
+  h1{
+    font-family: Impact;
+    font-size: 700%;
+    background-image: url("barre.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  table{
+    background-image: none;
+    height: auto;
+  }
+
+  tr{
+    width: auto;
+  }
+
+
+}
