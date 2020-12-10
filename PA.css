@@ -1,9 +1,13 @@
-/*regler position de l'épee quand grand écran*/
+/*faire glisser l'épee quand grand écran JS*/
 /*faire footer*/
 /*faire fonctionner le clic*/
 /*mettre un à propos et un forum sur des photos clicables du jeu*/
 /*voir quoi rajouter avec JS(quand on arrive sur le site/ connexion inscription etc)*/
+/*faire commencer le slide quand on passe la souris dessus (rajouter un play)*/
 
+#container{
+  margin: auto;
+}
 
 
 html{
@@ -60,11 +64,7 @@ td{
 table{
   margin: 0px;
   width: 100%;
-  background-image: url("epeehorizontal.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  padding-bottom: 500px;
+  padding-bottom: 20px;
 }
 
 
@@ -102,7 +102,7 @@ nav a{
 nav li:hover #submenu{
   display: inline-block;
   position: absolute;
-  top: 10%;
+  top: 90%;
   right: 0px;
   padding: 0px;
   z-index: 1000;
@@ -136,16 +136,99 @@ nav{
   display: none;
 }
 
+#int{
+  background-image: url("epeehorizontal.png");
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 550px;
+}
+
+slide{
+  float: left;
+  padding: 0px;
+}
+
+#slides{
+  width: calc(800px*10);
+  animation: glisse 50s infinite;
+}
+
+#slider{
+  width: 800px;
+  overflow: hidden;
+  height: 500px;
+  margin: 150px auto;
+}
+
+
+@keyframes glisse {
+  0%{
+    transform: translateX(O);
+  }
+  5%{
+    transform: translateX(O);
+  }
+  10%{
+    transform: translateX(-800px);
+  }
+  15%{
+    transform: translateX(-800px);
+  }
+  20%{
+    transform: translateX(-1600px);
+  }
+  25%{
+    transform: translateX(-1600px);
+  }
+  30%{
+    transform: translateX(-2400px);
+  }
+  35%{
+    transform: translateX(-2400px);
+  }
+  40%{
+    transform: translateX(-3200px);
+  }
+  50%{
+    transform: translateX(-4000px);
+  }
+  55%{
+    transform: translateX(-4000px);
+  }
+  60%{
+    transform: translateX(-4800px);
+  }
+  65%{
+    transform: translateX(-4800px);
+  }
+  70%{
+    transform: translateX(-5600px);
+  }
+  80%{
+    transform: translateX(-6400px);
+  }
+  85%{
+    transform: translateX(-6400px);
+  }
+  90%{
+    transform: translateX(-7200px);
+  }
+  95%{
+    transform: translateX(-7200px);
+  }
+  100%{
+    transform: translateX(O);
+  }
+}
+
+
 @media screen and (max-width: 1550px) and (min-width: 981px) {
 
   table{
     padding-bottom: 70px;
     margin: 0px;
     width: 100%;
-    background-image: url("epeehorizontal.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center bottom;
   }
 
 
@@ -164,7 +247,7 @@ nav{
   }
 
   header{
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     margin: 0px;
   }
 
