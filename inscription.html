@@ -2,59 +2,32 @@
 <head>
   <meta charset="utf-8"/>
   <title>GLAIVE</title>
-  <link rel="stylesheet" type="text/css" href="web_style.css">
+  <link rel="stylesheet" type="text/css" href="inscription.css">
   <link rel="icon" href="epee.ico"/>
 </head>
 
 
 <body>
-  <table>
-    <tr>
-      <td>
-        <img src="logopourfondsombre.png" alt="LogoGlaive" width="50%"/>
-      </td>
-      <td>
-        <p><h2>FORMULAIRE D'INSCRIPTION</h2></p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <form method="post" action="traitement.php">
-        <p>
-          <label for="pseudo"> Pseudo </label>
-          <input type="next" name="Pseudo" id="pseudo"/>
-        </p>
-        <p>
-          <label for="motdepasse"> Mot De Passe </label>
-          <input type="password" name="motdepasse" id="pass"/>
-        </p>
-        <p>
-          <label for="e-mail"> E-mail </label>
-          <input type="email" name="email" id="email"/>
-        </p>
-        <p>
-          <label for="pays">Dans quel pays habitez-vous ?</label><br />
-          <select name="pays" id="pays">
-              <option value="france">France</option>
-              <option value="espagne">Espagne</option>
-              <option value="italie">Italie</option>
-              <option value="royaume-uni">Royaume-Uni</option>
-              <option value="canada">Canada</option>
-              <option value="etats-unis">États-Unis</option>
-              <option value="chine">Chine</option>
-              <option value="japon">Japon</option>
-          </select>
-        </p>
-        <p>
-          <input type="submit" value="Envoyer" />
-        </p>
-        </form>
-      </td>
-
-    </tr>
-
-  </table>
-
-
-
+  <div style="text-align:center; padding-top:50px; padding-bottom:20px;">
+    <img style="margin:auto;" src="epee.png" alt="LogoGlaive" width="8%"/>
+  </div>
+  <div id="inscription">
+    <h2 class="inscription">INSCRIPTION</h2>
+    <form class="box" method="post" action="verification.php" >
+      <p>
+        <label style="color:white;"for="pseudo"> Pseudo </label></br>
+        <input type="text" placeholder="Choisir le nom d'utilisateur" name="pseudo" required>
+      </p>
+      <p>
+        <label style="color:white;" for="motdepasse"> Mot de passe </label></br>
+        <input type="password" placeholder="Choisir un mot de passe" name="motdepasse" required>
+      </p>
+      <p>
+        <label style="color:white;" for="email"> Email </label></br>
+        <input type="email" placeholder="Email" name="email" required>
+      </p>
+      <p>
+        <input type="submit" value="Inscription" />
+      </p>
+  </div>
 </body>
