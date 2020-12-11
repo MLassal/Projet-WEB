@@ -52,16 +52,17 @@ footer{
 #inscription{
   width:100%;
   margin:auto;
+  padding-top: 30px;
 }
 .inscription{
   margin:auto;
   color: white;
-  height: 1000px;
+  height: 800px;
 }
 
 .box{
   width: 150%;
-  padding: 40px;
+  padding: 25px;
   position: absolute;
   top: 450px;
   left: 50%;
@@ -69,6 +70,7 @@ footer{
   background: #191919;
   text-align: center;
   border: 3px solid white;
+  margin: 0px;
 }
 .box h1{
   color: white;
