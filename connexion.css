@@ -1,4 +1,5 @@
 /*rajouter barre titre*/
+/*php*/
 
 html{
   background-color:#0E0E0E;
@@ -20,13 +21,13 @@ header{
 
 h1{
   font-family: Impact;
-  font-size: 50px;
-  /*background-image: url("barre.png");
-  background-size: 350px;
+  font-size: 450%;
+  background-image: url("barre.png");
+  background-size: 550px 30px;
   background-repeat: no-repeat;
-  background-position: top center;*/
+  background-position: center;
   text-align: center;
-  text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+  text-shadow:#0E0E0E 5px 5px,#0E0E0E -5px 5px,#0E0E0E -5px -5px,#0E0E0E 5px -5px;
   margin: 0px 0px 20px 0px;
 }
 
@@ -51,14 +52,12 @@ footer{
 }
 
 
+
+
 #connexion{
   width:100%;
   margin:auto;
   padding-top: 30px;
-}
-.connexion{
-  margin:auto;
-  color: white;
   height: 800px;
 }
 
