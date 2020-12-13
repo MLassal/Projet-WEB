@@ -222,9 +222,10 @@ slide{
   padding: 0px;
 }
 
-#slides{
-  width: calc(800px*10);
-  animation: glisse 50s infinite;
+#slides:hover{
+  width: calc(800px*11);
+  animation: glisse 120s infinite;
+  cursor: none;
 }
 
 #slider{
@@ -239,56 +240,35 @@ slide{
   0%{
     transform: translateX(O);
   }
-  5%{
-    transform: translateX(O);
-  }
-  10%{
+  9%{
     transform: translateX(-800px);
   }
-  15%{
-    transform: translateX(-800px);
-  }
-  20%{
+  18%{
     transform: translateX(-1600px);
   }
-  25%{
-    transform: translateX(-1600px);
-  }
-  30%{
+  27%{
     transform: translateX(-2400px);
   }
-  35%{
-    transform: translateX(-2400px);
-  }
-  40%{
+  36%{
     transform: translateX(-3200px);
   }
-  50%{
+  45%{
     transform: translateX(-4000px);
   }
-  55%{
-    transform: translateX(-4000px);
-  }
-  60%{
+  54%{
     transform: translateX(-4800px);
   }
-  65%{
-    transform: translateX(-4800px);
-  }
-  70%{
+  63%{
     transform: translateX(-5600px);
   }
-  80%{
+  72%{
     transform: translateX(-6400px);
   }
-  85%{
-    transform: translateX(-6400px);
+  81%{
+    transform: translateX(-7200px);
   }
   90%{
-    transform: translateX(-7200px);
-  }
-  95%{
-    transform: translateX(-7200px);
+    transform: translateX(-8000px);
   }
   100%{
     transform: translateX(O);
