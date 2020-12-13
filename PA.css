@@ -222,9 +222,10 @@ slide{
   padding: 0px;
 }
 
+
 #slides:hover{
   width: calc(800px*11);
-  animation: glisse 120s infinite;
+  animation: glisse 70s infinite;
   cursor: none;
 }
 
@@ -271,7 +272,7 @@ slide{
     transform: translateX(-8000px);
   }
   100%{
-    transform: translateX(O);
+    transform: translateX(-8000px);
   }
 }
 
