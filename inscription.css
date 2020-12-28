@@ -92,7 +92,7 @@ footer{
   outline: none;
   color: white;
   border-radius: 24px;
-  transition: 0.5s;
+  transition: 1s;
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus, .box input[type = "email"]:focus{
   width: 280px;
@@ -109,7 +109,7 @@ footer{
   outline: none;
   color: white;
   border-radius: 24px;
-  transition: 0.5s;
+  transition: 1s;
   cursor: pointer;
 }
 .box input[type = "submit"]:hover{
