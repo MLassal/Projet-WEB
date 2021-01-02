@@ -1,0 +1,355 @@
+
+/*faire fonctionner le clic*/
+/*mettre un à propos et un forum sur des photos clicables du jeu*/
+/*voir quoi rajouter avec JS(quand on arrive sur le site/ connexion inscription etc)*/
+/*faire commencer le slide quand on passe la souris dessus (rajouter un play)*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  margin: auto;
+}
+
+
+html{
+  background-color:#0E0E0E;
+  color:white;
+}
+
+body{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+header{
+  background-color: #0E0E0E;
+  padding: 10px 20px 30px 20px;
+  display: block;
+  transition-duration: 1s;
+}
+
+
+h1{
+  font-family: Impact;
+  font-size: 650%;
+  background-image: url("barre.png");
+  background-size: 550px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+  margin: 0px 0px 20px 0px;
+}
+
+h2{
+  font-size: 400%;
+  font-family: Impact;
+  text-shadow:#0A0A0A 6px 6px,#0A0A0A -6px 6px,#0A0A0A -6px -6px,#0A0A0A 6px -6px;
+
+}
+
+
+
+h3{
+  font-family: Gill Sans, sans-serif;
+  font-size: 23px;
+  transition-duration: 1s;
+}
+
+p{
+  font-family: Gill Sans, sans-serif;
+  font-size: 18px;
+}
+
+footer{
+  background-color: #0A0A0A;
+  margin: 0px;
+  width: 100%;
+  height: 540px;
+  text-align: center;
+}
+
+td{
+  margin: 0px;
+  padding: 0px;
+}
+
+table{
+  margin: 0px;
+  width: 100%;
+  padding-bottom: 20px;
+  /*transition-duration: 2.5s;*/
+}
+
+/*----------------CI---------------*/
+
+nav > ul{
+  margin:0px;
+  padding: 0px;
+}
+
+nav > ul :: after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav > ul > li{
+  float: right;
+  position: relative;
+}
+
+
+nav li{
+  list-style-type:none;
+}
+
+.submenu{
+  display: none;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li{
+  border-bottom: 1px solid white;
+}
+
+.submenu li a{
+  padding: 5px 0px;
+  font-size: 13px;
+  width: 150px;
+  color: white;
+}
+
+
+#logo, nav{
+  display: inline-block;
+}
+
+#logo{
+  width: 49%;
+}
+
+nav{
+  width: 49%;
+}
+
+#glaive{
+  padding-bottom: 30px;
+}
+
+/*-----------IN-------------*/
+
+#contact > ul{
+  margin:0px;
+  padding: 0px;
+}
+
+#contact > ul :: after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#contact > ul > li{
+  float: center;
+  position: relative;
+}
+
+
+#contact li{
+  list-style-type:none;
+}
+
+.submenu{
+  display: none;
+}
+
+#contact a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contact li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+  left: 54%;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li{
+  border-bottom: 1px solid white;
+}
+
+.submenu li a{
+  padding: 5px 0px;
+  font-size: 13px;
+  width: 150px;
+  color: white;
+}
+
+
+#fleche{
+  padding: 5px;
+
+}
+
+
+
+
+#intro1{
+  display: none;
+}
+
+#int{
+  background-image: url("epeehorizontal.png");
+  background-size: 1150px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 460px;
+  padding: 20px 20px 20px 100px;
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  background-color: #191919;
+}
+
+.slide{
+  float: left;
+  padding: 0px;
+}
+
+
+#slides:hover{
+  width: calc(800px*11);
+  animation: glisse 70s infinite;
+  cursor: none;
+}
+
+#slider{
+  width: 800px;
+  overflow: hidden;
+  height: 500px;
+  margin: 150px auto;
+}
+
+
+@keyframes glisse {
+  0%{
+    transform: translateX(O);
+  }
+  9%{
+    transform: translateX(-800px);
+  }
+  18%{
+    transform: translateX(-1600px);
+  }
+  27%{
+    transform: translateX(-2400px);
+  }
+  36%{
+    transform: translateX(-3200px);
+  }
+  45%{
+    transform: translateX(-4000px);
+  }
+  54%{
+    transform: translateX(-4800px);
+  }
+  63%{
+    transform: translateX(-5600px);
+  }
+  72%{
+    transform: translateX(-6400px);
+  }
+  81%{
+    transform: translateX(-7200px);
+  }
+  90%{
+    transform: translateX(-8000px);
+  }
+  100%{
+    transform: translateX(-8000px);
+  }
+}
+
+
+@media screen and (max-width: 1550px) and (min-width: 981px) {
+
+  table{
+    padding-bottom: 70px;
+    margin: 0px;
+    width: 100%;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-width: 882px) and (min-width: 735px){
+
+  #intro{
+    display: none;
+  }
+
+  #intro1{
+    display: block;
+  }
+
+  header{
+    padding-bottom: 50px;
+    margin: 0px;
+  }
+
+  h1{
+    font-family: Impact;
+    font-size: 700%;
+    background-image: url("barre.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  table{
+    background-image: none;
+    height: auto;
+    padding-top: 20px;
+    background-color: #191919;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+  }
+
+  tr{
+    width: auto;
+  }
+
+
+
+
+
+
+}

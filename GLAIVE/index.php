@@ -4,14 +4,16 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="author" content="NoS1gnal"/>
-            <link rel="icon" href="epee.ico">
-            <link rel="stylesheet" href="bootstrap.css">
+            <link rel="icon" href="pics/epee.ico">
+            <script src="https://kit.fontawesome.com/1dbfb24ed6.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="style/bootstrap.css">
+            <link rel="stylesheet" href="style/icon.css">
             <title>Glaive: Connexion</title>
         </head>
         <body>
         <nav class="navbar">
           <a href="#" class="navbar-brand" >
-              <img src="logopourfondsombre.png" alt="" width="200" height="">
+              <img src="pics/logopourfondsombre.png" alt="" width="200" height="">
           </a>
 
         </nav>
@@ -72,15 +74,15 @@
           <!--Étudiant en L2 DANT... en gris-->
           <div id="compagnie" align="center">
           </br></br><h2 style="color:white;">B O N J O U R  !</h2>
-            <img src="barre.png" width="600px" height="25px"  align="center"/></br></br>
+            <img src="pics/barre.png" width="600px" height="25px"  align="center"/></br></br>
             <h4 style="color:white;"> Nous sommes étudiant en L2 à Sorbonne Université</h4>
             <p style="color:white;">Vous aimeriez nous contacter ? Nous serions ravis de vous répondre.<p></br>
           </div>
 
           <!--(nos mails) + linkedin-->
           <div id="contact">
-            <ul>
-              <li><img src="in.png" width="50px" class="center"/>
+            <ul class="icon-container">
+              <li class="z"><i class="fab fa-linkedin-in"></i>
                <ul class="submenu">
                  <li><a href ="https://fr.linkedin.com/in/mounir-lassal-6615181bb"><b>Mounir LASSAL</b></a></li>
                  <li><a href ="https://fr.linkedin.com/in/shalom-agonglo-b43a9b18a"><b>Shalom AGONGLO</b></a></li>
@@ -88,8 +90,19 @@
                  <li><a href ="https://fr.linkedin.com/in/arthur-guillaumot-614a011ab"><b>Arthur GUILLAUMOT</b></a></li>
                </ul>
              </li>
+             <li class="l">
+               <a class="v" href="#"><i class="fab fa-facebook-f"></i></a>
+             </li>
+             <li class="l">
+               <a class="v" href="#"><i class="fab fa-twitter"></i></a>
+             </li>
+             <li class="l">
+               <a class="v" href="#"> <i class="fab fa-instagram"></i></a>
+             </li>
+
             </ul>
           </div>
+
 
           <!--Copyright pour faire semblant ou pas (©)-->
 
