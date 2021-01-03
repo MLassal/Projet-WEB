@@ -96,7 +96,7 @@ section{
 
 header{
   background-color: #0E0E0E;
-  padding: 10px 20px 40px 20px;
+  padding: 10px 20px 0px 20px;
   display: block;
   transition-duration: 1s;
 }
