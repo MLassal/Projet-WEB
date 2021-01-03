@@ -108,6 +108,8 @@ table{
   margin: 0px;
 }
 
+
+
 #cube{
   border-top: 3px solid white;
   border-bottom: 3px solid white;
@@ -118,6 +120,14 @@ table{
   padding: 0px;
 }
 
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
 
 td{
   padding-bottom: 40px;
