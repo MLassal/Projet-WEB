@@ -1,0 +1,105 @@
+html{
+  background-color:#0E0E0E;
+  color:white;
+}
+
+body{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+header{
+  background-color: #0E0E0E;
+  padding: 10px 20px 40px 20px;
+  display: block;
+  transition-duration: 1s;
+}
+
+
+h1{
+  font-family: Impact;
+  font-size: 450%;
+  background-image: url("barre.png");
+  background-size: 650px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow:#0E0E0E 5px 5px,#0E0E0E -5px 5px,#0E0E0E -5px -5px,#0E0E0E 5px -5px;
+  margin: 0px 0px 20px 0px;
+}
+
+h2{
+  font-size: 400%;
+  font-family: Impact;
+  text-shadow:#0A0A0A 6px 6px,#0A0A0A -6px 6px,#0A0A0A -6px -6px,#0A0A0A 6px -6px;
+}
+
+
+p{
+  font-family: Gill Sans, sans-serif;
+  font-size: 18px;
+}
+
+footer{
+  background-color: #0A0A0A;
+  margin: 0px;
+  width: 100%;
+  height: 540px;
+  text-align: center;
+}
+
+#contact > ul{
+  margin:0px;
+  padding: 0px;
+}
+
+#contact > ul :: after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#contact > ul > li{
+  float: center;
+  position: relative;
+}
+
+
+#contact li{
+  list-style-type:none;
+}
+
+.submenu{
+  display: none;
+}
+
+#contact a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contact li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+  left: 54%;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li{
+  border-bottom: 1px solid white;
+}
+
+.submenu li a{
+  padding: 5px 0px;
+  font-size: 13px;
+  width: 150px;
+  color: white;
+}
+
+
+#fleche{
+  padding: 5px;
+}

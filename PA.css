@@ -1,8 +1,5 @@
 
-/*faire fonctionner le clic*/
-/*mettre un à propos et un forum sur des photos clicables du jeu*/
-/*voir quoi rajouter avec JS(quand on arrive sur le site/ connexion inscription etc)*/
-/*faire commencer le slide quand on passe la souris dessus (rajouter un play)*/
+/*box1/2 enlever hyperlien */
 
 
 
@@ -16,7 +13,7 @@ section{
 
 
 #box {
-  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
+  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .7);
   margin: 50px;
   border-style: solid;
   border-width: 1px;
@@ -33,7 +30,7 @@ section{
 
 
 #box1 {
-  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
+  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .7);
   margin: 50px;
   border-style: solid;
   border-width: 1px;
@@ -53,7 +50,7 @@ section{
 }
 
 #box2 {
-  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
+  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .7);
   margin: 50px;
   border-style: solid;
   border-width: 1px;
@@ -77,7 +74,6 @@ section{
 html{
   background-color:#0E0E0E;
   color:white;
-  cursor: none;
 }
 
 body{
@@ -85,7 +81,6 @@ body{
   margin: 0px;
   padding: 0px;
   width: 100%;
-  cursor: url("epee.cur"),pointer;
 }
 
 header{
@@ -189,6 +184,7 @@ nav a{
   display: inline-block;
   text-decoration: none;
 }
+
 
 nav li:hover .submenu{
   display: inline-block;
