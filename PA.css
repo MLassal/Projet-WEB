@@ -376,7 +376,7 @@ slide{
   background-image: url("anim/1.png");
   background-repeat: no-repeat;
   animation-name: diapo;
-  animation-duration: 7s;
+  animation-duration: 6s;
   animation-timing-function:ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -415,7 +415,7 @@ slide{
   background-image: url("anim/1l.png");
   background-repeat: no-repeat;
   animation-name: diapo1;
-  animation-duration: 10s;
+  animation-duration: 8s;
   animation-timing-function:ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: normal;
