@@ -3,6 +3,14 @@ html{
   color:white;
 }
 
+section{
+  height: 1000px;
+}
+
+td{
+  padding: 40px;
+}
+
 body{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0px;
@@ -25,7 +33,7 @@ h1{
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  text-shadow:#0E0E0E 5px 5px,#0E0E0E -5px 5px,#0E0E0E -5px -5px,#0E0E0E 5px -5px;
+  text-shadow:#0E0E0E 4px 4px,#0E0E0E -4px 4px,#0E0E0E -4px -4px,#0E0E0E 4px -4px;
   margin: 0px 0px 20px 0px;
 }
 
@@ -74,6 +82,10 @@ footer{
   display: none;
 }
 
+.nn{
+  padding: 0px;
+}
+
 #contact a{
   display: inline-block;
   text-decoration: none;
@@ -102,4 +114,96 @@ footer{
 
 #fleche{
   padding: 5px;
+}
+
+#box33{
+  padding: 0px;
+  text-align: right;
+}
+#box33bis{
+  padding: 0px;
+  text-align: right;
+}
+
+#box3, #box3bis{
+  margin:0px;
+  display: inline-block;
+  width: 100px;
+  height: 73px;
+  background-image: url("anim/1.png");
+  background-repeat: no-repeat;
+  animation-name: diapo;
+  animation-duration: 6s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo {
+  0%{
+    background-image: url("anim/1.png");
+  }
+  33%{
+    background-image: url("anim/2.png");
+  }
+  66%{
+    background-image: url("anim/3.png");
+  }
+
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#cube{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  background-color: #191919;
+  padding: 20px 20px 20px 20px;
+}
+
+
+#box44{
+  padding: 0px;
+  text-align: left;
+}
+
+#box44bis{
+  padding: 0px;
+  text-align: left;
+}
+
+#box4,#box4bis{
+  margin:0px;
+  display: inline-block;
+  width: 100px;
+  height: 73px;
+  background-image: url("anim/1l.png");
+  background-repeat: no-repeat;
+  animation-name: diapo1;
+  animation-duration: 8s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo1 {
+  0%{
+    background-image: url("anim/1l.png");
+  }
+  25%{
+    background-image: url("anim/2l.png");
+  }
+  50%{
+    background-image: url("anim/3l.png");
+  }
+  75%{
+    background-image: url("anim/4l.png");
+  }
+
+
 }
