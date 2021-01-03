@@ -4,93 +4,25 @@
 /*voir quoi rajouter avec JS(quand on arrive sur le site/ connexion inscription etc)*/
 /*faire commencer le slide quand on passe la souris dessus (rajouter un play)*/
 
-
-
-section{
-  height: 2300px;;
-}
-
 #container{
   margin: auto;
 }
 
 
-#box {
-  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
-  margin: 50px;
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 600px;
-  height: 375px;
-  transition: width 1s, height 1s, background-color 1s, transform 1s;
-}
-
-#box:hover {
-  width: 800px;
-  height: 500px;
-}
-
-
-#box1 {
-  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
-  margin: 50px;
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 450px;
-  height: 250px;
-  transition: width 1s, height 1s, background-color 1s, transform 1s;
-  float: right;
-  background-image: url("img/img.png");
-  text-align: center;
-  padding-top: 60px;
-}
-
-#box1:hover {
-  width: 600px;
-  height: 300px;
-}
-
-#box2 {
-  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
-  margin: 50px;
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 500px;
-  height: 250px;
-  transition: width 1s, height 1s, background-color 1s, transform 1s;
-  background-image: url("img/musique.png");
-  text-align: center;
-  padding-top: 60px;
-
-}
-
-#box2:hover {
-  width: 600px;
-  height: 280px;
-}
-
-
-
 html{
   background-color:#0E0E0E;
   color:white;
-  cursor: none;
 }
 
 body{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0px;
-  padding: 0px;
-  width: 100%;
-  cursor: url("epee.cur"),pointer;
+  padding: 0px 0px 0px 0px;
 }
 
 header{
   background-color: #0E0E0E;
-  padding: 10px 20px 0px 20px;
+  padding: 10px 20px 30px 20px;
   display: block;
   transition-duration: 1s;
 }
@@ -105,7 +37,7 @@ h1{
   background-position: center;
   text-align: center;
   text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
-  margin: 10px 0px 50px 0px;
+  margin: 0px 0px 20px 0px;
 }
 
 h2{
@@ -120,16 +52,6 @@ h2{
 h3{
   font-family: Gill Sans, sans-serif;
   font-size: 23px;
-  transition-duration: 1s;
-}
-
-h4{
-  font-size: 140%;
-  transition-duration: 1s;
-}
-
-h5{
-  font-size: 130%;
   transition-duration: 1s;
 }
 
@@ -223,6 +145,9 @@ nav{
   width: 49%;
 }
 
+#glaive{
+  padding-bottom: 30px;
+}
 
 /*-----------IN-------------*/
 
@@ -290,7 +215,6 @@ nav{
 }
 
 #int{
-  width: 100%;
   background-image: url("epeehorizontal.png");
   background-size: 1150px;
   background-repeat: no-repeat;
@@ -315,10 +239,10 @@ slide{
 }
 
 #slider{
-  display: block;
+  width: 800px;
   overflow: hidden;
-  max-width: 100%;
-  max-height: 100%;
+  height: 500px;
+  margin: 150px auto;
 }
 
 
@@ -362,89 +286,6 @@ slide{
 }
 
 
-
-#box33{
-  padding: 0px;
-  text-align: right;
-}
-#box33bis{
-  padding: 0px;
-  text-align: right;
-}
-
-#box3, #box3bis{
-  margin:0px;
-  display: inline-block;
-  width: 100px;
-  height: 73px;
-  background-image: url("anim/1.png");
-  background-repeat: no-repeat;
-  animation-name: diapo;
-  animation-duration: 7s;
-  animation-timing-function:ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-}
-
-@keyframes diapo {
-  0%{
-    background-image: url("anim/1.png");
-  }
-  33%{
-    background-image: url("anim/2.png");
-  }
-  66%{
-    background-image: url("anim/3.png");
-  }
-
-}
-
-
-
-#box44{
-  padding: 0px;
-  text-align: left;
-}
-
-#box44bis{
-  padding: 0px;
-  text-align: left;
-}
-
-#box4,#box4bis{
-  margin:0px;
-  display: inline-block;
-  width: 100px;
-  height: 73px;
-  background-image: url("anim/1l.png");
-  background-repeat: no-repeat;
-  animation-name: diapo1;
-  animation-duration: 10s;
-  animation-timing-function:ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-}
-
-@keyframes diapo1 {
-  0%{
-    background-image: url("anim/1l.png");
-  }
-  25%{
-    background-image: url("anim/2l.png");
-  }
-  50%{
-    background-image: url("anim/3l.png");
-  }
-  75%{
-    background-image: url("anim/4l.png");
-  }
-
-
-}
-
-
-
-
 @media screen and (max-width: 1550px) and (min-width: 981px) {
 
   table{
@@ -461,11 +302,6 @@ slide{
 
 @media screen and (max-width: 882px) and (min-width: 735px){
 
-  header{
-    padding-bottom: 50px;
-    margin: 0px;
-  }
-
   #intro{
     display: none;
   }
@@ -474,6 +310,10 @@ slide{
     display: block;
   }
 
+  header{
+    padding-bottom: 50px;
+    margin: 0px;
+  }
 
   h1{
     font-family: Impact;
