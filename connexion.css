@@ -12,9 +12,93 @@ body{
 
 header{
   background-color: #0E0E0E;
-  padding: 10px 20px 40px 20px;
+  padding: 10px 20px 0px 20px;
   display: block;
   transition-duration: 1s;
+}
+
+
+table{
+  width: 100%;
+}
+
+#box33{
+  padding: 0px;
+  text-align: right;
+}
+#box33bis{
+  padding: 0px;
+  text-align: right;
+}
+
+#box3, #box3bis{
+  margin:0px;
+  display: inline-block;
+  width: 100px;
+  height: 73px;
+  background-image: url("anim/1.png");
+  background-repeat: no-repeat;
+  animation-name: diapo;
+  animation-duration: 6s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo {
+  0%{
+    background-image: url("anim/1.png");
+  }
+  33%{
+    background-image: url("anim/2.png");
+  }
+  66%{
+    background-image: url("anim/3.png");
+  }
+
+}
+
+
+
+#box44{
+  padding: 0px;
+  text-align: left;
+}
+
+#box44bis{
+  padding: 0px;
+  text-align: left;
+}
+
+#box4,#box4bis{
+  margin:0px;
+  display: inline-block;
+  width: 100px;
+  height: 73px;
+  background-image: url("anim/1l.png");
+  background-repeat: no-repeat;
+  animation-name: diapo1;
+  animation-duration: 8s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo1 {
+  0%{
+    background-image: url("anim/1l.png");
+  }
+  25%{
+    background-image: url("anim/2l.png");
+  }
+  50%{
+    background-image: url("anim/3l.png");
+  }
+  75%{
+    background-image: url("anim/4l.png");
+  }
+
+
 }
 
 
@@ -64,7 +148,7 @@ footer{
   width: 100%;
   padding: 40px;
   position: absolute;
-  top: 450px;
+  top: 410px;
   left: 50%;
   transform: translate(-50%,-30%);
   background: #191919;
