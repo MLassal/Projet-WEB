@@ -72,7 +72,8 @@ a{
 
 
 html{
-  background-color:#0E0E0E;
+  background: url("fondtest.png") no-repeat center fixed;
+  background-size: cover;
   color:white;
 }
 
@@ -84,7 +85,8 @@ body{
 }
 
 header{
-  background-color: #0E0E0E;
+  background-image: url("fond.jpg");
+  border-bottom: solid rgb(255, 255, 255);
   padding: 10px 20px 0px 20px;
   display: block;
   transition-duration: 1s;
@@ -196,7 +198,7 @@ nav li:hover .submenu{
 }
 
 .submenu li{
-  border-bottom: 1px solid white;
+  border: 1px solid white;
 }
 
 .submenu li a{
@@ -214,9 +216,25 @@ nav li:hover .submenu{
 #logo{
   width: 49%;
 }
+#logoacceuil{
+  width:120px;
+}
+#navacceuil:hover{
+  width: 40px;
+}
+#connexion:hover{
+  background-color: rgb(40, 43, 43);
+}
+#connexion{
+  background-color: black;
+}
+#logoacceuil:hover{
+  transition-duration: 0.3s;
+  width:140px;
+}
 
 nav{
-  width: 49%;
+  width: 50%;
 }
 
 
@@ -286,16 +304,12 @@ nav{
 }
 
 #int{
-  width: 100%;
-  background-image: url("epeehorizontal.png");
-  background-size: 1150px;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  height: 460px;
+  background-image: url("fond.jpg");
+  background-size: 100%;
+  background-position: bottom;
   padding: 20px 20px 20px 100px;
   border-top: solid 3px white;
   border-bottom: solid 3px white;
-  background-color: #191919;
 }
 
 slide{
@@ -455,7 +469,7 @@ slide{
 
 }
 
-@media screen and (max-width: 882px) and (min-width: 735px){
+@media screen and (max-width: 882px) and (min-width: 754px) {
 
   header{
     padding-bottom: 50px;
@@ -485,7 +499,6 @@ slide{
   }
 
   table{
-    background-image: none;
     height: auto;
     padding-top: 20px;
     background-color: #191919;
