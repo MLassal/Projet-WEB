@@ -1,5 +1,4 @@
-/*rajouter barre titre*/
-/*php*/
+
 
 html{
   background-color:#0E0E0E;
@@ -149,7 +148,7 @@ footer{
   width: 150%;
   padding: 25px;
   position: absolute;
-  top: 470px;
+  top: 468px;
   left: 50%;
   transform: translate(-50%,-30%);
   background: #191919;
