@@ -4,19 +4,48 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="author" content="NoS1gnal"/>
-            <link rel="icon" href="pics/epee.ico">
+            <link rel="icon" href="images/epee.ico">
             <script src="https://kit.fontawesome.com/1dbfb24ed6.js" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="style/bootstrap.css">
-            <link rel="stylesheet" href="style/icon.css">
+            <link rel="stylesheet" href="styles/bootstrap.css">
+            <link rel="stylesheet" href="styles/icon.css">
+            <link rel="stylesheet" href="styles/index2.css">
             <title>Glaive: Connexion</title>
         </head>
         <body>
         <nav class="navbar">
           <a href="#" class="navbar-brand" >
-              <img src="pics/logopourfondsombre.png" alt="" width="200" height="">
+              <img src="images/logopourfondsombre.png" alt="" width="200" height="">
           </a>
 
         </nav>
+        <table>
+          <tr>
+            <td class="animation_avatar">
+              <div id="avatar_td_1">
+              <div id="avatar_1">
+            </div>
+          </div>
+            </td>
+            <td class="animation_avatar">
+              <div id="avatar_td_2">
+              <div id="avatar_2">
+            </div>
+          </div>
+            </td>
+            <td class="animation_avatar">
+              <div id="avatar_td_3">
+              <div id="avatar_3">
+              </div>
+            </div>
+            </td>
+            <td class="animation_avatar">
+              <div id="avatar_td_4">
+              <div id="avatar_4">
+            </div>
+          </div>
+            </td>
+          </tr>
+      </table>
 
         <div class="login-form">
              <?php
@@ -64,17 +93,18 @@
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block">Connexion</button>
                 </div>
+                <div class="form-group" >
+                  <button type="" class="btn btn-primary btn-block"> <a href="inscription.php">S'inscrire</a> </button>
+                </div>
             </form>
-            <div class="inscri">
-              <p class="text-center"><a href="inscription.php">S'inscrire</a></p>
-            </div>
+
         </div>
         <footer>
 
           <!--Étudiant en L2 DANT... en gris-->
           <div id="compagnie" align="center">
           </br></br><h2 style="color:white;">B O N J O U R  !</h2>
-            <img src="pics/barre.png" width="600px" height="25px"  align="center"/></br></br>
+            <img src="images/barre.png" width="600px" height="25px"  align="center"/></br></br>
             <h4 style="color:white;"> Nous sommes étudiant en L2 à Sorbonne Université</h4>
             <p style="color:white;">Vous aimeriez nous contacter ? Nous serions ravis de vous répondre.<p></br>
           </div>
@@ -109,7 +139,7 @@
         </footer>
         <style>
             body {
-              background: #121211;
+              background: linear-gradient(black,gray);
             }
 
             .text-center{
@@ -124,7 +154,6 @@
 
             }
             .login-form form {
-                margin-bottom: 15px;
                 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
                 padding: 30px;
             }
@@ -217,6 +246,17 @@
               width: 100%;
               height: 540px;
               text-align: center;
+            }
+
+            h2{
+              font-size: 250%;
+            }
+            form{
+              background: black;
+            }
+
+            .icon-container li{
+              padding: 0;
             }
         </style>
         </body>

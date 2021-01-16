@@ -1,0 +1,505 @@
+
+/*faire fonctionner le clic*/
+/*mettre un à propos et un forum sur des photos clicables du jeu*/
+/*voir quoi rajouter avec JS(quand on arrive sur le site/ connexion inscription etc)*/
+/*faire commencer le slide quand on passe la souris dessus (rajouter un play)*/
+
+
+
+section{
+  height: 2300px;;
+}
+
+#container{
+  margin: auto;
+}
+
+
+#box {
+  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
+  margin: 50px;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 600px;
+  height: 375px;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+#box:hover {
+  width: 800px;
+  height: 500px;
+}
+
+
+#box1 {
+  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
+  margin: 50px;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 450px;
+  height: 250px;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+  float: right;
+  background-image: url("pics/img/img.png");
+  text-align: center;
+  padding-top: 60px;
+}
+
+#box1:hover {
+  width: 600px;
+  height: 300px;
+}
+
+#box2 {
+  box-shadow: 22px 22px 2px 1px rgba(255, 255, 0, .5);
+  margin: 50px;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 500px;
+  height: 250px;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+  background-image: url("pics/img/musique.png");
+  text-align: center;
+  padding-top: 60px;
+
+}
+
+#box2:hover {
+  width: 600px;
+  height: 280px;
+}
+
+
+
+html{
+  background-color:#0E0E0E;
+  color:white;
+  cursor: none;
+}
+
+body{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  cursor: url("epee.cur"),pointer;
+}
+
+header{
+  background-color: #0E0E0E;
+  padding: 10px 20px 0px 20px;
+  display: block;
+  transition-duration: 1s;
+}
+
+
+h1{
+  font-family: Impact;
+  font-size: 650%;
+  background-image: url("pics/barre.png");
+  background-size: 550px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+  margin: 10px 0px 50px 0px;
+}
+
+h2{
+  font-size: 400%;
+  font-family: Impact;
+  text-shadow:#0A0A0A 6px 6px,#0A0A0A -6px 6px,#0A0A0A -6px -6px,#0A0A0A 6px -6px;
+
+}
+
+
+
+h3{
+  font-family: Gill Sans, sans-serif;
+  font-size: 23px;
+  transition-duration: 1s;
+}
+
+h4{
+  font-size: 140%;
+  transition-duration: 1s;
+}
+
+h5{
+  font-size: 130%;
+  transition-duration: 1s;
+}
+
+p{
+  font-family: Gill Sans, sans-serif;
+  font-size: 18px;
+}
+
+footer{
+  background-color: #0A0A0A;
+  margin: 0px;
+  width: 100%;
+  height: 540px;
+  text-align: center;
+}
+
+td{
+  margin: 0px;
+  padding: 0px;
+}
+
+table{
+  margin: 0px;
+  width: 100%;
+  padding-bottom: 20px;
+  /*transition-duration: 2.5s;*/
+}
+
+/*----------------CI---------------*/
+
+nav > ul{
+  margin:0px;
+  padding: 0px;
+}
+
+nav > ul :: after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav > ul > li{
+  float: right;
+  position: relative;
+}
+
+
+nav li{
+  list-style-type:none;
+}
+
+.submenu{
+  display: none;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  right: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li{
+  border-bottom: 1px solid white;
+}
+
+.submenu li a{
+  padding: 5px 0px;
+  font-size: 13px;
+  width: 150px;
+  color: white;
+}
+
+
+#logo, nav{
+  display: inline-block;
+}
+
+#logo{
+  width: 49%;
+}
+
+nav{
+  width: 49%;
+}
+
+
+/*-----------IN-------------*/
+
+#contact > ul{
+  margin:0px;
+  padding: 0px;
+}
+
+#contact > ul :: after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#contact > ul > li{
+  float: center;
+  position: relative;
+}
+
+
+#contact li{
+  list-style-type:none;
+}
+
+.submenu{
+  display: none;
+}
+
+#contact a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+#contact li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+  left: 54%;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.submenu li{
+  border-bottom: 1px solid white;
+}
+
+.submenu li a{
+  padding: 5px 0px;
+  font-size: 13px;
+  width: 150px;
+  color: white;
+}
+
+
+#fleche{
+  padding: 5px;
+
+}
+
+
+
+
+#intro1{
+  display: none;
+}
+
+#int{
+  width: 100%;
+  background-image: url("pics/epeehorizontal.png");
+  background-size: 1150px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 460px;
+  padding: 20px 20px 20px 100px;
+  border-top: solid 3px white;
+  border-bottom: solid 3px white;
+  background-color: #191919;
+}
+
+slide{
+  float: left;
+  padding: 0px;
+}
+
+
+#slides:hover{
+  width: calc(800px*11);
+  animation: glisse 70s infinite;
+  cursor: none;
+}
+
+#slider{
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+@keyframes glisse {
+  0%{
+    transform: translateX(O);
+  }
+  9%{
+    transform: translateX(-800px);
+  }
+  18%{
+    transform: translateX(-1600px);
+  }
+  27%{
+    transform: translateX(-2400px);
+  }
+  36%{
+    transform: translateX(-3200px);
+  }
+  45%{
+    transform: translateX(-4000px);
+  }
+  54%{
+    transform: translateX(-4800px);
+  }
+  63%{
+    transform: translateX(-5600px);
+  }
+  72%{
+    transform: translateX(-6400px);
+  }
+  81%{
+    transform: translateX(-7200px);
+  }
+  90%{
+    transform: translateX(-8000px);
+  }
+  100%{
+    transform: translateX(-8000px);
+  }
+}
+
+
+
+#box33{
+  padding: 0px;
+  text-align: right;
+}
+#box33bis{
+  padding: 0px;
+  text-align: right;
+}
+
+#box3, #box3bis{
+  margin:0px;
+  display: inline-block;
+  width: 100px;
+  height: 73px;
+  background-image: url("anim/1.png");
+  background-repeat: no-repeat;
+  animation-name: diapo;
+  animation-duration: 7s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo {
+  0%{
+    background-image: url("anim/1.png");
+  }
+  33%{
+    background-image: url("anim/2.png");
+  }
+  66%{
+    background-image: url("anim/3.png");
+  }
+
+}
+
+
+
+#box44{
+  padding: 0px;
+  text-align: left;
+}
+
+#box44bis{
+  padding: 0px;
+  text-align: left;
+}
+
+#box4,#box4bis{
+  margin:0px;
+  display: inline-block;
+  width: 100px;
+  height: 73px;
+  background-image: url("anim/1l.png");
+  background-repeat: no-repeat;
+  animation-name: diapo1;
+  animation-duration: 10s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes diapo1 {
+  0%{
+    background-image: url("anim/1l.png");
+  }
+  25%{
+    background-image: url("anim/2l.png");
+  }
+  50%{
+    background-image: url("anim/3l.png");
+  }
+  75%{
+    background-image: url("anim/4l.png");
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1550px) and (min-width: 981px) {
+
+  table{
+    padding-bottom: 70px;
+    margin: 0px;
+    width: 100%;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-width: 882px) and (min-width: 735px){
+
+  header{
+    padding-bottom: 50px;
+    margin: 0px;
+  }
+
+  #intro{
+    display: none;
+  }
+
+  #intro1{
+    display: block;
+  }
+
+
+  h1{
+    font-family: Impact;
+    font-size: 700%;
+    background-image: url("pics/barre.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-shadow:#0E0E0E 6px 6px,#0E0E0E -6px 6px,#0E0E0E -6px -6px,#0E0E0E 6px -6px;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  table{
+    background-image: none;
+    height: auto;
+    padding-top: 20px;
+    background-color: #191919;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+  }
+
+  tr{
+    width: auto;
+  }
+
+
+}
