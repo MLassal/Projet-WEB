@@ -216,10 +216,10 @@
                 <a class="v" href="#"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li class="l">
-                <a class="v" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="v" href="https://twitter.com/SparthaTeam"><i class="fab fa-twitter"></i></a>
               </li>
               <li class="l">
-                <a class="v" href="#"> <i class="fab fa-instagram"></i></a>
+                <a class="v" href="https://www.instagram.com/team.glaive.spartha/?hl=fr"> <i class="fab fa-instagram"></i></a>
               </li>
 
              </ul>
@@ -234,7 +234,7 @@
          .icon-container li{
            padding: 0px;
          }
-         
+
        </style>
 
      </body>
